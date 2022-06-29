@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Logo from "./assets/logo.svg";
+import Logo from "./assets/final-img.svg";
 import Icon from "./assets/icon.svg";
 import Close from "./assets/close.svg";
 import Menu from "./assets/menu.svg";
@@ -48,21 +48,21 @@ const App = () => {
           <div className="Header__LogoAndLanguageSelector-vbeldz-2 iapQks">
             <a href="/" className="Header__StyledIcon-vbeldz-3 bqPIwS">
               <img
-                width="100"
+                width="150"
                 src={Logo}
                 className="Header__Desktop-vbeldz-0 kJENb"
                 alt=""
               />
               <div className="Header__Mobile-vbeldz-1 bhcNRs">
                 <img
-                  width="100"
+                  width="120"
                   src={Logo}
                   alt=""
                   className="Header__Image-vbeldz-5 Header___StyledImage-vbeldz-9 dZHMiD jFUKIu"
                 />
                 <img
-                  width="64"
-                  src={Icon}
+                  width="120"
+                  src={Logo}
                   alt=""
                   className="Header__Image-vbeldz-5 Header___StyledImage2-vbeldz-8 dZHMiD"
                 />
@@ -118,6 +118,7 @@ const App = () => {
               className="Header__Image-vbeldz-5 Header___StyledImage4-vbeldz-6 dZHMiD dhTUxZ"
             />
           </div>
+          {/*}
           <div className="Header__MobileNav-vbeldz-17 ktFGgt">
             <nav className="Header__Navigation-vbeldz-4 fJieYI">
               <button tabIndex="0" className="Menu__StyledMenu-zw4hm3-2 iCmekd">
@@ -164,7 +165,7 @@ const App = () => {
                 Trade
               </button>
             </div>
-          </div>
+          </div>*/}
         </div>
         <div className="Page__Content-bkvm2a-0 fAMnyO">
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -173,27 +174,28 @@ const App = () => {
               <img src={IOSMarket} alt="" />
               <div>
                 <p>
-                  Introducing <b>dYdX for iOS</b>
+                  Introducing <b>WGMI11</b><img src={Logo} alt="WGMI11 logo" />
                 </p>
-                <h1>Move with power</h1>
+                <h2>A Web3.0 Fantasy Sports & NFT collectable platform.</h2>
                 <h3>
-                  Start trading on the most powerful decentralized exchange,
-                  from anywhere.
+                  Collect & trade NFTs, Create teams, Join Contest and Win Big!
                 </h3>
                 <p className="buttons">
-                  <a
-                    href="https://apps.apple.com/app/dydx/id1564787350"
+                  {/*<a
+                    href="#"
                     target="_blank"
-                    rel="noreferrer"
-                  >
+                    rel="noreferrer" >*/}
+                    <a
+                    href="#">
                     <button className="Button-sc-6c6tfi-0 gRviOS">
-                      <img src={Apple} alt="" />
-                      Download
+                      {/*<img src={Apple} alt="" />*/}
+                      Coming soon
                     </button>
                   </a>
-                  <a href="#video">
+                  
+                  <a href="#">
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
-                      <svg
+                     {/*} <svg
                         width="25"
                         height="24"
                         viewBox="0 0 25 24"
@@ -206,18 +208,19 @@ const App = () => {
                           d="M12.5 24C15.6826 24 18.7348 22.7357 20.9853 20.4853C23.2357 18.2348 24.5 15.1826 24.5 12C24.5 8.8174 23.2357 5.76516 20.9853 3.51472C18.7348 1.26428 15.6826 0 12.5 0C9.3174 0 6.26516 1.26428 4.01472 3.51472C1.76428 5.76516 0.5 8.8174 0.5 12C0.5 15.1826 1.76428 18.2348 4.01472 20.4853C6.26516 22.7357 9.3174 24 12.5 24ZM11.8325 7.752C11.6066 7.60128 11.344 7.51472 11.0728 7.50154C10.8015 7.48837 10.5318 7.54907 10.2924 7.67719C10.0529 7.8053 9.85273 7.99602 9.71319 8.22899C9.57364 8.46195 9.49996 8.72844 9.5 9V15C9.49996 15.2716 9.57364 15.538 9.71319 15.771C9.85273 16.004 10.0529 16.1947 10.2924 16.3228C10.5318 16.4509 10.8015 16.5116 11.0728 16.4985C11.344 16.4853 11.6066 16.3987 11.8325 16.248L16.3325 13.248C16.5379 13.111 16.7064 12.9254 16.8229 12.7077C16.9394 12.49 17.0003 12.2469 17.0003 12C17.0003 11.7531 16.9394 11.51 16.8229 11.2923C16.7064 11.0746 16.5379 10.889 16.3325 10.752L11.8325 7.752Z"
                           fill="white"
                         ></path>
-                      </svg>
-                      <span className="mobile-only">Watch</span>
-                      <span className="not-mobile-only">Watch video</span>
+                        </svg>*/}
+                      <span className="mobile-only">Litepaper</span>
+                      <span className="not-mobile-only">Litepaper</span>
                     </button>
-                  </a>
+                    </a>
                 </p>
                 <p>
-                  Available for <b>iOS</b> now. Coming to <b>Android</b> early
-                  next year!
+                  Coming to <b>Android</b>,<b>iOS</b> and <b>Web</b> early
+                  this year!
                 </p>
               </div>
             </section>
+            {/*
             <section className="card">
               <img className="align-top" src={IOSTrade} alt="" />
               <img className="align-bottom" src={IOSFilled} alt="" />
@@ -262,9 +265,10 @@ const App = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen=""
               ></iframe>
-            </div>
+            </div>*/}
           </main>
         </div>
+       
         <div className="Footer__StyledFooter-s5pvwq-1 Footer___StyledStyledFooter-s5pvwq-2 cwqkbJ HCBBq">
           <div className="Footer__Container-s5pvwq-3 jPowfa">
             <a
@@ -348,6 +352,7 @@ const App = () => {
             />
           </div>
         </div>
+         {/* 
         <div className="Sitemap__Container-uyke27-1 bivGZz">
           <span className="Sitemap__StyledMenuTitle-uyke27-5 ejFDfc">
             <div className="Sitemap__Section-uyke27-4 hSEIzQ">
@@ -832,6 +837,7 @@ const App = () => {
           </span>
           <span className="Sitemap__StyledMenuTitle-uyke27-5 ejFDfc"></span>
         </div>
+        */}
       </div>
     </div>
   );

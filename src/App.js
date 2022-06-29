@@ -4,7 +4,7 @@ import Logo from "./assets/final-img.svg";
 import Icon from "./assets/icon.svg";
 import Close from "./assets/close.svg";
 import Menu from "./assets/menu.svg";
-import IOSMarket from "./assets/images/ios-market.png";
+import WGMIhome from "./assets/images/wgmi-home.png";
 import Apple from "./assets/apple.svg";
 import IOSTrade from "./assets/images/ios-trade.png";
 import IOSFilled from "./assets/images/ios-filled.png";
@@ -171,7 +171,7 @@ const App = () => {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <main className="mobile__Container-yq44pr-0 gbbvCo">
             <section>
-              <img src={IOSMarket} alt="" />
+              <img src={WGMIhome} alt="" />
               <div>
                 <p>
                   Introducing <b>WGMI11</b><img src={Logo} alt="WGMI11 logo" />

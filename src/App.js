@@ -271,8 +271,9 @@ const App = () => {
        
         <div className="Footer__StyledFooter-s5pvwq-1 Footer___StyledStyledFooter-s5pvwq-2 cwqkbJ HCBBq">
           <div className="Footer__Container-s5pvwq-3 jPowfa">
+            Join us:
             <a
-              href="https://github.com/dydxprotocol"
+              href="#"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
@@ -284,7 +285,7 @@ const App = () => {
               />
             </a>
             <a
-              href="https://twitter.com/dydx"
+              href="#"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
@@ -296,7 +297,7 @@ const App = () => {
               />
             </a>
             <a
-              href="https://discord.gg/Tuze6tY"
+              href="#"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
@@ -307,6 +308,7 @@ const App = () => {
                 alt=""
               />
             </a>
+{/*            
             <a
               href="https://www.youtube.com/c/dYdXprotocol"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
@@ -349,7 +351,7 @@ const App = () => {
               height="25"
               className="Footer__StyledIcon-s5pvwq-4 dQDYqT"
               alt=""
-            />
+          />*/}
           </div>
         </div>
          {/* 

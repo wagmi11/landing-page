@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Logo from "./assets/final-img.svg";
+import Logo from "./assets/wgmi-logo-new.svg";
 import Icon from "./assets/icon.svg";
 import Close from "./assets/close.svg";
 import Menu from "./assets/menu.svg";
@@ -171,10 +171,10 @@ const App = () => {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <main className="mobile__Container-yq44pr-0 gbbvCo">
             <section>
-              <img src={WGMIhome} alt="" />
+              <img src={WGMIhome} alt="WAGMI Logo" />
               <div>
                 <p>
-                  Introducing <b>WGMI11</b><img src={Logo} alt="WGMI11 logo" />
+                  Introducing <b>WAGMI11</b><img src={Logo} alt="WAGMI11 logo" />
                 </p>
                 <h2>A Web3.0 Fantasy Sports & NFT collectable platform.</h2>
                 <h3>

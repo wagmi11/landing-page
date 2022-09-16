@@ -12,7 +12,7 @@ import IOSNotification from "./assets/images/ios-notifications.png";
 import IOSWallet from "./assets/images/ios-wallets.png";
 import IOSProfile from "./assets/images/ios-profile.png";
 import IOSCompetition from "./assets/images/ios-competition.png";
-import Github from "./assets/github.svg";
+import Telegram from "./assets/telegram.svg";
 import Twitter from "./assets/twitter.svg";
 import Discord from "./assets/discord.svg";
 import Youtube from "./assets/youtube.svg";
@@ -273,11 +273,12 @@ const App = () => {
           <div className="Footer__Container-s5pvwq-3 jPowfa">
             Join us:
             <a
-              href="#"
+              target={"_blank"}
+              href="https://t.me/wagmi_11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
-                src={Github}
+                src={Telegram}
                 width="24"
                 height="24"
                 className="Footer__StyledIcon-s5pvwq-4 dQDYqT"
@@ -285,7 +286,8 @@ const App = () => {
               />
             </a>
             <a
-              href="#"
+              target={'_blank'}
+              href="https://twitter.com/wagmi_11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
@@ -297,10 +299,11 @@ const App = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://discord.gg/EUKwQy4P96"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
+                target={'_blank'}
                 src={Discord}
                 width="24"
                 height="24"

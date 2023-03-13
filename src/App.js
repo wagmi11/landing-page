@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Logo from "./assets/wgmi-logo-new.svg";
+import Logo from "./assets/images/wgmi_LOGO.png";
 import Icon from "./assets/icon.svg";
 import Close from "./assets/close.svg";
 import Menu from "./assets/menu.svg";
@@ -19,31 +19,12 @@ import Youtube from "./assets/youtube.svg";
 import Reddit from "./assets/reddit.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Wechat from "./assets/wechat.svg";
+import WGMIVideo from "./assets/video/WAGMI_Video.mp4";
 
 const App = () => {
   return (
     <div id="__next">
       <div className="Page__Background-bkvm2a-5 jjKDxp">
-        <div className="Page__Layer-bkvm2a-1 cSvUtx">
-          <div className="Page__Feature-bkvm2a-3 eAvdpi">
-            <video
-              id="waveform"
-              preload="auto"
-              loop=""
-              muted=""
-              autoPlay=""
-              playsInline=""
-              disablePictureInPicture=""
-              className="Page__Video-bkvm2a-2 kGDvMA"
-            >
-              <source
-                // src="/wave.webm"
-                type="video/webm"
-                className="Page__Source-bkvm2a-4 bOrlei"
-              />
-            </video>
-          </div>
-        </div>
         <div className="Header__Container-vbeldz-19 jYpTSR">
           <div className="Header__LogoAndLanguageSelector-vbeldz-2 iapQks">
             <a href="/" className="Header__StyledIcon-vbeldz-3 bqPIwS">
@@ -68,45 +49,8 @@ const App = () => {
                 />
               </div>
             </a>
-            <div className="Header__LanguageSelectorWrapper-vbeldz-13 fqvCmj">
-              <button className="Button-sc-6c6tfi-0 Header__LanguageSelectorButton-vbeldz-14 APbZJ NeTmO">
-                English
-                <svg
-                  width="7"
-                  height="5"
-                  viewBox="0 0 7 5"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.10256 4.4772C3.30266 4.74012 3.69822 4.74012 3.89832 4.4772L6.3142 1.30281C6.56471 0.973645 6.32997 0.5 5.91632 0.5H1.08456C0.670919 0.5 0.436176 0.973645 0.686685 1.30281L3.10256 4.4772Z"
-                    fill="#c8c7d8"
-                  ></path>
-                </svg>
-              </button>
-              <div className="Header__LanguageSelectorMenu-vbeldz-15 gWhSQx">
-                <div
-                  selected=""
-                  className="Header__LanguageSelectorOption-vbeldz-16 kGcREZ"
-                >
-                  English
-                </div>
-                <div className="Header__LanguageSelectorOption-vbeldz-16 bzLQpE">
-                  中文
-                </div>
-                <div className="Header__LanguageSelectorOption-vbeldz-16 bzLQpE">
-                  日本語
-                </div>
-                <div className="Header__LanguageSelectorOption-vbeldz-16 bzLQpE">
-                  한국어
-                </div>
-                <div className="Header__LanguageSelectorOption-vbeldz-16 bzLQpE">
-                  русский
-                </div>
-              </div>
-            </div>
           </div>
-          <div className="Header__MenuToggle-vbeldz-10 dftUlZ">
+          {/* <div className="Header__MenuToggle-vbeldz-10 dftUlZ">
             <img
               src={Close}
               alt=""
@@ -117,7 +61,7 @@ const App = () => {
               alt=""
               className="Header__Image-vbeldz-5 Header___StyledImage4-vbeldz-6 dZHMiD dhTUxZ"
             />
-          </div>
+          </div> */}
           {/*}
           <div className="Header__MobileNav-vbeldz-17 ktFGgt">
             <nav className="Header__Navigation-vbeldz-4 fJieYI">
@@ -171,52 +115,44 @@ const App = () => {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <main className="mobile__Container-yq44pr-0 gbbvCo">
             <section>
-              <img src={WGMIhome} alt="WAGMI Logo" />
+              {/* <img src={WGMIhome} alt="WAGMI Logo" /> */}
+              <video
+                width={300}
+                height={700}
+                loop="true"
+                muted=""
+                autoPlay="true"
+                playsInline=""
+                controls="true"
+              >
+                <source src={WGMIVideo} type="video/mp4" />
+              </video>
               <div>
                 <p>
-                  Introducing <b>WAGMI11</b><img src={Logo} alt="WAGMI11 logo" />
+                  Introducing <b>WAGMI11</b>
+                  <img src={Logo} alt="WAGMI11 logo" />
                 </p>
                 <h2>A Web3.0 Fantasy Sports & NFT collectable platform.</h2>
                 <h3>
                   Collect & trade NFTs, Create teams, Join Contest and Win Big!
                 </h3>
                 <p className="buttons">
-                  {/*<a
-                    href="#"
-                    target="_blank"
-                    rel="noreferrer" >*/}
-                    <a
-                    href="#">
+                  <a href="https://play.wagmi11.com/">
                     <button className="Button-sc-6c6tfi-0 gRviOS">
-                      {/*<img src={Apple} alt="" />*/}
-                      Coming soon
+                      Play now
                     </button>
                   </a>
-                  
-                  <a href="#">
+
+                  <a href="https://discord.gg/VRT9MtPKgm">
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
-                     {/*} <svg
-                        width="25"
-                        height="24"
-                        viewBox="0 0 25 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M12.5 24C15.6826 24 18.7348 22.7357 20.9853 20.4853C23.2357 18.2348 24.5 15.1826 24.5 12C24.5 8.8174 23.2357 5.76516 20.9853 3.51472C18.7348 1.26428 15.6826 0 12.5 0C9.3174 0 6.26516 1.26428 4.01472 3.51472C1.76428 5.76516 0.5 8.8174 0.5 12C0.5 15.1826 1.76428 18.2348 4.01472 20.4853C6.26516 22.7357 9.3174 24 12.5 24ZM11.8325 7.752C11.6066 7.60128 11.344 7.51472 11.0728 7.50154C10.8015 7.48837 10.5318 7.54907 10.2924 7.67719C10.0529 7.8053 9.85273 7.99602 9.71319 8.22899C9.57364 8.46195 9.49996 8.72844 9.5 9V15C9.49996 15.2716 9.57364 15.538 9.71319 15.771C9.85273 16.004 10.0529 16.1947 10.2924 16.3228C10.5318 16.4509 10.8015 16.5116 11.0728 16.4985C11.344 16.4853 11.6066 16.3987 11.8325 16.248L16.3325 13.248C16.5379 13.111 16.7064 12.9254 16.8229 12.7077C16.9394 12.49 17.0003 12.2469 17.0003 12C17.0003 11.7531 16.9394 11.51 16.8229 11.2923C16.7064 11.0746 16.5379 10.889 16.3325 10.752L11.8325 7.752Z"
-                          fill="white"
-                        ></path>
-                        </svg>*/}
-                      <span className="mobile-only">Litepaper</span>
-                      <span className="not-mobile-only">Litepaper</span>
+                      <span className="mobile-only">Join Discord</span>
+                      <span className="not-mobile-only">Join Discord</span>
                     </button>
-                    </a>
+                  </a>
                 </p>
                 <p>
-                  Coming to <b>Android</b>,<b>iOS</b> and <b>Web</b> early
-                  this year!
+                  Coming to <b>Android</b>,<b>iOS</b> and <b>Web</b> early this
+                  year!
                 </p>
               </div>
             </section>
@@ -268,7 +204,7 @@ const App = () => {
             </div>*/}
           </main>
         </div>
-       
+
         <div className="Footer__StyledFooter-s5pvwq-1 Footer___StyledStyledFooter-s5pvwq-2 cwqkbJ HCBBq">
           <div className="Footer__Container-s5pvwq-3 jPowfa">
             Join us:
@@ -286,7 +222,7 @@ const App = () => {
               />
             </a>
             <a
-              target={'_blank'}
+              target={"_blank"}
               href="https://twitter.com/wagmi_11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
@@ -303,7 +239,7 @@ const App = () => {
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
             >
               <img
-                target={'_blank'}
+                target={"_blank"}
                 src={Discord}
                 width="24"
                 height="24"
@@ -311,7 +247,7 @@ const App = () => {
                 alt=""
               />
             </a>
-{/*            
+            {/*            
             <a
               href="https://www.youtube.com/c/dYdXprotocol"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
@@ -357,7 +293,7 @@ const App = () => {
           />*/}
           </div>
         </div>
-         {/* 
+        {/* 
         <div className="Sitemap__Container-uyke27-1 bivGZz">
           <span className="Sitemap__StyledMenuTitle-uyke27-5 ejFDfc">
             <div className="Sitemap__Section-uyke27-4 hSEIzQ">

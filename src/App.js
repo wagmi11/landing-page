@@ -19,7 +19,7 @@ import Youtube from "./assets/youtube.svg";
 import Reddit from "./assets/reddit.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Wechat from "./assets/wechat.svg";
-import WGMIVideo from "./assets/video/WAGMI_Video.mp4";
+import WGMIGIF from "./assets/video/WGMI_GIF.gif";
 
 const App = () => {
   return (
@@ -115,18 +115,8 @@ const App = () => {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <main className="mobile__Container-yq44pr-0 gbbvCo">
             <section>
-              {/* <img src={WGMIhome} alt="WAGMI Logo" /> */}
-              <video
-                width={300}
-                height={700}
-                loop="true"
-                muted=""
-                autoPlay="true"
-                playsInline=""
-                controls="true"
-              >
-                <source src={WGMIVideo} type="video/mp4" />
-              </video>
+              <img src={WGMIGIF} alt="WAGMI GIF" />
+
               <div>
                 <p>
                   Introducing <b>WAGMI11</b>

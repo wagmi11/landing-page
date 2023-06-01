@@ -123,10 +123,30 @@ const App = () => {
                   Introducing <b>WAGMI11</b>
                   <img src={Logo} alt="WAGMI11 logo" />
                 </p>
-                <h2>A Web3.0 Fantasy Sports & NFT collectable platform.</h2>
+                <h2>
+                  Play, Predict & Win! on{" "}
+                  <a
+                    href="https://twitter.com/wagmi_11"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @wagmi_11
+                  </a>{" "}
+                  powered by{" "}
+                  <a
+                    href="https://twitter.com/ton_blockchain"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @ton_blockchain
+                  </a>
+                  💎.
+                </h2>
                 <h3>
-                  Collect & trade NFTs, Create teams, Join Contest and Win Big!
+                  Discover the power of decentralized prediction and sports
+                  fantasy platform via WAGMI11.
                 </h3>
+
                 <p className="buttons">
                   <a href="https://play.wagmi11.com/">
                     <button className="Button-sc-6c6tfi-0 gRviOS">
@@ -203,6 +223,7 @@ const App = () => {
               target={"_blank"}
               href="https://t.me/wagmi_11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
+              rel="noreferrer"
             >
               <img
                 src={Telegram}
@@ -216,6 +237,7 @@ const App = () => {
               target={"_blank"}
               href="https://twitter.com/wagmi_11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
+              rel="noreferrer"
             >
               <img
                 src={Twitter}

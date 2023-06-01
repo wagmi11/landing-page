@@ -20,6 +20,7 @@ import Reddit from "./assets/reddit.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Wechat from "./assets/wechat.svg";
 import WGMIGIF from "./assets/video/WGMI_GIF.gif";
+import Mockup from "./assets/images/Mockup.png";
 
 const App = () => {
   return (
@@ -115,7 +116,7 @@ const App = () => {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <main className="mobile__Container-yq44pr-0 gbbvCo">
             <section>
-              <img src={WGMIGIF} alt="WAGMI GIF" />
+              <img src={Mockup} alt="WAGMI GIF" />
 
               <div>
                 <p>
@@ -133,15 +134,15 @@ const App = () => {
                     </button>
                   </a>
 
-                  <a href="https://discord.gg/VRT9MtPKgm">
+                  <a href="https://t.me/wagmi_11">
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
-                      <span className="mobile-only">Join Discord</span>
-                      <span className="not-mobile-only">Join Discord</span>
+                      <span className="mobile-only">Join Telegram</span>
+                      <span className="not-mobile-only">Join Telegram</span>
                     </button>
                   </a>
                 </p>
                 <p>
-                  Coming to <b>Android</b>,<b>iOS</b> and <b>Web</b> early this
+                  Coming to <b>Android</b>, <b>iOS</b> and <b>Web</b> early this
                   year!
                 </p>
               </div>

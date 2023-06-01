@@ -21,6 +21,7 @@ import LinkedIn from "./assets/linkedin.svg";
 import Wechat from "./assets/wechat.svg";
 import WGMIGIF from "./assets/video/WGMI_GIF.gif";
 import Mockup from "./assets/images/Mockup.png";
+import TonLogo from "./assets/ton_symbol.svg";
 
 const App = () => {
   return (
@@ -124,8 +125,8 @@ const App = () => {
                   <img src={Logo} alt="WAGMI11 logo" />
                 </p>
                 <h2>
-                  Play, Predict & Win! on{" "}
-                  <a
+                  Play, Predict & Win!
+                  {/* <a
                     href="https://twitter.com/wagmi_11"
                     target="_blank"
                     rel="noreferrer"
@@ -140,31 +141,39 @@ const App = () => {
                   >
                     @ton_blockchain
                   </a>
-                  💎.
+                  💎. */}
                 </h2>
+                <h3 style={{ display: "flex" }}>
+                  Powered by{" "}
+                  <img
+                    src={TonLogo}
+                    alt="TonLogo"
+                    width={75}
+                    height={75}
+                    style={{ marginLeft: 8 }}
+                  />
+                </h3>
                 <h3>
                   Discover the power of decentralized prediction and sports
                   fantasy platform via WAGMI11.
                 </h3>
 
                 <p className="buttons">
-                  <a href="https://play.wagmi11.com/">
+                  <a href="https://t.me/wagmi11">
                     <button className="Button-sc-6c6tfi-0 gRviOS">
-                      Play now
-                    </button>
-                  </a>
-
-                  <a href="https://t.me/wagmi_11">
-                    <button className="Button-sc-6c6tfi-0 lmqBTG">
                       <span className="mobile-only">Join Telegram</span>
                       <span className="not-mobile-only">Join Telegram</span>
                     </button>
                   </a>
+
+                  <a href="https://discord.gg/EUKwQy4P96">
+                    <button className="Button-sc-6c6tfi-0 lmqBTG">
+                      <span className="mobile-only">Join Discord</span>
+                      <span className="not-mobile-only">Join Discord</span>
+                    </button>
+                  </a>
                 </p>
-                <p>
-                  Coming to <b>Android</b>, <b>iOS</b> and <b>Web</b> early this
-                  year!
-                </p>
+                <p>Coming soon early this year!</p>
               </div>
             </section>
             {/*
@@ -221,7 +230,7 @@ const App = () => {
             Join us:
             <a
               target={"_blank"}
-              href="https://t.me/wagmi_11"
+              href="https://t.me/wagmi11"
               className="Footer__StyledLink-s5pvwq-0 ePtDxx"
               rel="noreferrer"
             >

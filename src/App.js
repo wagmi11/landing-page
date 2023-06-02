@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Logo from "./assets/images/wgmi_LOGO.png";
+import Logo from "./assets/wgmi_LOGO.svg";
 import Icon from "./assets/icon.svg";
 import Close from "./assets/close.svg";
 import Menu from "./assets/menu.svg";

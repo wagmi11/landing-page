@@ -636,12 +636,15 @@ data-styled.g1[id="sc-global-iteqcH1"] {
 
 body {
   font-family: "Relative Pro", sans-serif !important;
-  background: #131322;
+  background: #030014;
   color: #fafafd;
   -webkit-letter-spacing: -0.013em !important;
   -moz-letter-spacing: -0.013em !important;
   -ms-letter-spacing: -0.013em !important;
   letter-spacing: -0.013em !important;
+  background-image: url("./assets/images/BG-Cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
@@ -1344,7 +1347,7 @@ data-styled.g51[id="Header__Message-vbeldz-18"] {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background: none;
-  border-bottom: 1px #131322 solid;
+  border-bottom: 1px #030014 solid;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {

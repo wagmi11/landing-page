@@ -122,27 +122,9 @@ const App = () => {
               <div>
                 <p>
                   Introducing <b>WAGMI11</b>
-                  <img src={Logo} alt="WAGMI11 logo" />
+                  <img src={Logo} alt="WAGMI11 logo" className="logo" />
                 </p>
-                <h2>
-                  Play, Predict & Win!
-                  {/* <a
-                    href="https://twitter.com/wagmi_11"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @wagmi_11
-                  </a>{" "}
-                  powered by{" "}
-                  <a
-                    href="https://twitter.com/ton_blockchain"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @ton_blockchain
-                  </a>
-                  💎. */}
-                </h2>
+                <h2>Play, Predict & Win!</h2>
                 <h3 style={{ display: "flex" }}>
                   Powered by{" "}
                   <img

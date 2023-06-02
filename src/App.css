@@ -1340,7 +1340,7 @@ data-styled.g51[id="Header__Message-vbeldz-18"] {
   top: 0;
   z-index: 3;
   position: -webkit-sticky;
-  position: sticky;
+  /* position: sticky; */
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background: none;
@@ -1772,7 +1772,7 @@ data-styled.g81[id="Page__Background-bkvm2a-5"] {
 
 .gbbvCo {
   display: grid;
-  grid-template: "top top" "section1 section1" "section2 section3" "section4 section4" "video video" / 1fr 1fr;
+  grid-template: "top top" / 1fr 1fr;
   gap: 2em;
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
@@ -1955,7 +1955,7 @@ data-styled.g81[id="Page__Background-bkvm2a-5"] {
 
 @media (max-width: 60rem) {
   .gbbvCo {
-    grid-template: "top" "video" "section1" "section2" "section3" "section4";
+    grid-template: "top";
   }
   .gbbvCo h1 {
     font-size: 3.6rem;
@@ -2014,6 +2014,15 @@ data-styled.g81[id="Page__Background-bkvm2a-5"] {
     font-size: 2.35rem;
     font-weight: 500;
     line-height: 1.2;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  h3 {
+    justify-content: center;
+  }
+  .cwqkbJ {
+    position: relative;
   }
 }
 

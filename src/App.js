@@ -148,10 +148,16 @@ const App = () => {
                     </button>
                   </a>
 
-                  <a href="https://discord.gg/EUKwQy4P96">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://forms.gle/Kqd9mD13L57enKnAA"
+                  >
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
-                      <span className="mobile-only">Join Discord</span>
-                      <span className="not-mobile-only">Join Discord</span>
+                      <span className="mobile-only">Pre seed Investment</span>
+                      <span className="not-mobile-only">
+                        Pre seed Investment
+                      </span>
                     </button>
                   </a>
                 </p>

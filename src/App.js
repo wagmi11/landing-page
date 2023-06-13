@@ -126,7 +126,7 @@ const App = () => {
                 </p>
                 <h2>Play, Predict & Win!</h2>
                 <h3 style={{ display: "flex" }}>
-                  Powered by{" "}
+                  powered by{" "}
                   <img
                     src={TonLogo}
                     alt="TonLogo"
@@ -154,10 +154,8 @@ const App = () => {
                     href="https://forms.gle/Kqd9mD13L57enKnAA"
                   >
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
-                      <span className="mobile-only">Pre seed Investment</span>
-                      <span className="not-mobile-only">
-                        Pre seed Investment
-                      </span>
+                      <span className="mobile-only">Invest Now</span>
+                      <span className="not-mobile-only">Invest Now</span>
                     </button>
                   </a>
                 </p>

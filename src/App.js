@@ -151,7 +151,7 @@ const App = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://forms.gle/Kqd9mD13L57enKnAA"
+                    href="https://airtable.com/shrrlJAwFVR8ZwpZO"
                   >
                     <button className="Button-sc-6c6tfi-0 lmqBTG">
                       <span className="mobile-only">Invest Now</span>
